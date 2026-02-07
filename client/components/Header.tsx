@@ -24,7 +24,9 @@ export default function Header() {
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
               <span className="text-white font-bold text-lg">HX</span>
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Hackathon</span>
+            <span className="font-bold text-lg hidden sm:inline">
+              Hackathon
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -60,7 +62,11 @@ export default function Header() {
               className="md:hidden p-2 rounded-lg hover:bg-white/10 transition-colors"
               aria-label="Toggle menu"
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </nav>
