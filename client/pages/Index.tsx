@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { ArrowRight, Zap, Target, Rocket, Code, Database, Cloud, Users, Calendar, MapPin, TrendingUp, Github, ExternalLink } from "lucide-react";
+import { ArrowRight, Zap, Target, Rocket, Code, Database, Cloud, Users, Calendar, MapPin, TrendingUp, Github, ExternalLink, Linkedin, Mail } from "lucide-react";
 
 export default function Index() {
   return (
